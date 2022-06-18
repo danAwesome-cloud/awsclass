@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ("Build") {
             steps {
-                sh 'echo "Hello World!!!"'
+                sh 'echo "Welcome to Fully Cloud Solutions"'
                 sh '''
                      echo "Testing shell scripts to see what works"
                     ls -lah
